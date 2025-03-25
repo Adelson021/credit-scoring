@@ -73,21 +73,53 @@ O modelo desenvolvido permite a classificação de clientes de forma eficaz, aux
 
 ### Dependencias
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+#### 📌 Pré-requisitos
+#### Sistema Operacional:
+
+Windows 10 ou superior / Linux / macOS
+
+#### Python:
+
+Versão recomendada: Python 3.8 ou superior
+
+#### Bibliotecas Necessárias:
+
+Instale todas as bibliotecas com o seguinte comando:
+
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+Ou instale individualmente:
+
+bash
+Copiar
+Editar
+pip install pandas numpy scikit-learn matplotlib seaborn pycaret lightgbm pickle-mixin
+#### 📦 Bibliotecas Utilizadas
+pandas (análise e manipulação de dados)
+
+numpy (operações matemáticas e vetoriais)
+
+scikit-learn (machine learning e pré-processamento)
+
+matplotlib e seaborn (visualização de dados)
+
+pycaret (automação de machine learning)
+
+lightgbm (modelo de machine learning para classificação)
+
+pickle (salvamento e carregamento do modelo treinado)
+
+streamlit (criação de dashboards e interfaces web para o projeto)
 
 ### Instalação
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+* Github
 
 ### Executando o projeto
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
+* Streamlit run 'ProjetoFinal.py'
 
 ## Ajuda
 
@@ -100,8 +132,8 @@ comando para rodar se o programa tiver uma informação de ajuda
 
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
+Adelson Campos Lima
+ex. [@adelson21](https://www.linkedin.com/in/adelson21/)
 
 ## Histórico de versões.
 
@@ -117,9 +149,4 @@ Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md pa
 ## Fontes de inspiração
 
 Inspiração, trechos de códigos utilizados, etc.
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+
