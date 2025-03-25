@@ -133,7 +133,7 @@ comando para rodar se o programa tiver uma informação de ajuda
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
 Adelson Campos Lima
-ex. [@adelson21](https://www.linkedin.com/in/adelson21/)
+[@adelson21](https://www.linkedin.com/in/adelson21/)
 
 ## Histórico de versões.
 
