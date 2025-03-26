@@ -78,7 +78,7 @@ full_pipeline = Pipeline([
 # ---------------------------
 @st.cache_data
 def load_model():
-    with open(r'C:\Users\Joel\Downloads\Data Scientist\Mod 38\model_final.pkl', 'rb') as file:
+    with open('..\model_final.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
