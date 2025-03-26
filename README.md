@@ -67,7 +67,7 @@ O modelo de Regressão Logística conseguiu prever com eficiência a inadimplên
 O modelo desenvolvido permite a classificação de clientes de forma eficaz, auxiliando na tomada de decisão sobre concessão de crédito. Com esse sistema, é possível minimizar riscos financeiros e otimizar processos de análise de crédito.
 
 ### LINK PARA APLICAÇÃO (LIVE)
-
+https://credit-scoring-pus0.onrender.com/
 
 ## Utilização
 
