@@ -1,8 +1,10 @@
-# Probabilidade de Inadimplência
+# 🔍 Credit Scoring com Regressão Logística
 
-O modelo de Regressão Logística aplicado aos dados do credit_scoring.csv está estimando a probabilidade de inadimplência de um cliente com base em suas características financeiras e demográficas.
+Este projeto tem como objetivo o desenvolvimento de um modelo preditivo para análise de risco de crédito (**credit scoring**) utilizando **Regressão Logística**, com interface interativa construída em **Streamlit** para aplicação prática do modelo.
 
-## Descrição do projeto
+---
+
+## 🧠 Descrição do Projeto
 
 ### 1. Introdução
 
@@ -14,73 +16,74 @@ O objetivo principal do modelo é auxiliar instituições financeiras na avalia�
 
 ### 3. Metodologia
 
-### 3.1. Coleta e Processamento dos Dados
+#### 3.1. Coleta e Processamento dos Dados
 
-Os dados utilizados foram extraídos do arquivo credit_scoring.csv, que contém variáveis relacionadas ao perfil financeiro e social dos clientes. O processamento dos dados envolveu as seguintes etapas:
+Os dados utilizados foram extraídos do arquivo `credit_scoring.csv`, que contém variáveis relacionadas ao perfil financeiro e social dos clientes. O processamento dos dados envolveu as seguintes etapas:
 
-Carregamento dos dados
+- Carregamento dos dados
+- Remoção de valores ausentes e inconsistentes
+- Transformação de variáveis categóricas em numéricas (One-Hot Encoding)
+- Escalonamento e normalização das variáveis numéricas
+- Remoção de outliers utilizando o método IQR
 
-Remoção de valores ausentes e inconsistentes
-
-Transformação de variáveis categóricas em numéricas (One-Hot Encoding)
-
-Escalonamento e normalização das variáveis numéricas
-
-Remoção de outliers utilizando o método IQR
-
-### 3.2. Modelagem Preditiva
+#### 3.2. Modelagem Preditiva
 
 A modelagem foi realizada utilizando Regressão Logística, devido à sua capacidade de classificação binária e interpretabilidade. As principais etapas foram:
 
-Construção do pipeline de processamento:
+- Construção do pipeline de processamento:
+  - Remoção de outliers
+  - Escalonamento das variáveis numéricas
+  - Codificação de variáveis categóricas
+- Divisão dos dados em treino e teste (70% para treino, 30% para teste)
+- Treinamento do modelo de Regressão Logística
+- Avaliação do desempenho do modelo
 
-Remoção de outliers
-
-Escalonamento das variáveis numéricas
-
-Codificação de variáveis categóricas
-
-Divisão dos dados em treino e teste (70% para treino, 30% para teste)
-
-Treinamento do modelo de Regressão Logística
-
-Avaliação do desempenho do modelo
-
-### 3.3. Métricas de Avaliação
+#### 3.3. Métricas de Avaliação
 
 Para medir a eficácia do modelo, utilizamos:
 
-Acurácia: Mede a proporção de previsões corretas.
+- **Acurácia**: Mede a proporção de previsões corretas.
+- **Matriz de confusão**: Avalia os erros de classificação.
+- **Precisão e Recall**: Analisam a qualidade das previsões para cada classe.
+- **F1-Score**: Métrica equilibrada entre Precisão e Recall.
 
-Matriz de confusão: Avalia os erros de classificação.
+---
 
-Precisão e Recall: Analisam a qualidade das previsões para cada classe.
+## 📊 Resultados
 
-F1-Score: Métrica equilibrada entre Precisão e Recall.
+O modelo de Regressão Logística conseguiu prever com eficiência a inadimplência dos clientes, alcançando uma boa taxa de acerto. O modelo final foi salvo em formato pickle (`.pkl`) para uso futuro.
 
-### 4. Resultados
+---
 
-O modelo de Regressão Logística conseguiu prever com eficiência a inadimplência dos clientes, alcançando uma boa taxa de acerto. O modelo final foi salvo em formato pickle (.pkl) para uso futuro.
-
-### 5. Conclusão
+## ✅ Conclusão
 
 O modelo desenvolvido permite a classificação de clientes de forma eficaz, auxiliando na tomada de decisão sobre concessão de crédito. Com esse sistema, é possível minimizar riscos financeiros e otimizar processos de análise de crédito.
 
-### LINK PARA APLICAÇÃO (LIVE)
-https://credit-scoring-pus0.onrender.com/
+---
 
-## Utilização
+## 🌐 Link para Aplicação (Live)
 
-### Dependencias
+Acesse a aplicação online:
+
+🔗 [https://credit-scoring-pus0.onrender.com/](https://credit-scoring-pus0.onrender.com/)
+
+---
+
+## 💻 Utilização
+
+### Dependências
 
 #### 📌 Pré-requisitos
-#### Sistema Operacional:
 
-Windows 10 ou superior / Linux / macOS
+**Sistema Operacional:**
 
-#### Python:
+- Windows 10 ou superior
+- Linux
+- macOS
 
-Versão recomendada: Python 3.8 ou superior
+**Python:**
+
+- Versão recomendada: Python 3.8 ou superior
 
 #### Bibliotecas Necessárias:
 
