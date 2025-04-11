@@ -51,7 +51,7 @@ Para medir a eficácia do modelo, utilizamos:
 
 ## 📊 Resultados
 
-O modelo de Regressão Logística conseguiu prever com eficiência a inadimplência dos clientes, alcançando uma boa taxa de acerto. O modelo final foi salvo em formato pickle (`.pkl`) para uso futuro.
+O modelo de Regressão Logística conseguiu prever com eficiência probabilidade a inadimplência dos clientes, alcançando uma boa taxa de acerto. O modelo final foi salvo em formato pickle (`.pkl`) para uso futuro.
 
 ---
 
