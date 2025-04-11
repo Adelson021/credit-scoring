@@ -137,16 +137,11 @@ Adelson Campos Lima
 
 ## Histórico de versões.
 
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
+   * Primeira versão
 
 ## Licença de uso
 
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
+Esse projeto não possui licença de uso.
 
-## Fontes de inspiração
 
-Inspiração, trechos de códigos utilizados, etc.
 
